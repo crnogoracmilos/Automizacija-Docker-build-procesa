@@ -1,0 +1,14 @@
+{
+  "name": "staff-scheduling-api",
+  "version": "1.0.0",
+  "description": "Profesionalni REST API za automatizaciju i upravljanje smenama zaposlenih",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
