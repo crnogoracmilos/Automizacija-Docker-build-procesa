@@ -2,7 +2,7 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 COPY . .
 RUN npm run build
 
@@ -16,7 +16,7 @@ COPY --from=builder /app/package*.json ./
 COPY --from=builder /app/dist ./dist
 
 # Instalacija samo produkcionih zavisnosti (smanjuje površinu napada)
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 # Bezbednosna praksa: Ne pokretati aplikaciju kao root korisnik
 USER node
