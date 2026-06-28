@@ -8,3 +8,5 @@ Završna faza procesa treba da obuhvati automatsko tagovanje Docker slike (na pr
 Projekti su istraživačko-praktičnog karaktera i zahtevaju samostalno istraživanje savremenih DevOps alata i tehnologija, kao i dokumentovanje ključnih inženjerskih odluka donetih tokom implementacije rešenja. Tema spada u savremene oblasti softverskog inženjerstva i namenjena je studentima koji žele dublje razumevanje automatizacije procesa razvoja i isporuke softvera.
 Srdačan pozdrav,
 Marijana
+
+https://fonbgacrs-my.sharepoint.com/:w:/g/personal/mc20240128_student_fon_bg_ac_rs/IQAAwpJpXNJfR6E3BEXQChBYAcGl2iBjutMZlcvg_biP_xg?e=eoj1ul
